@@ -53,7 +53,12 @@ app.use("/api/v1/tours", tourRouter);
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/bookings", bookingRouter);
 
-// Handiling unhandled routes
+// Health check route for the uptime robot to avoid the render(cloud platform) free hosting limit
+app.get("/api/v1/health", (req, res, next) => {
+  res.status(200).json({ status: "ok" });
+});
+
+// Handle unhandled routes
 app.all(/.*/, (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });

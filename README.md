@@ -1,5 +1,9 @@
 <h2 align="center">Natours</h2>
 
+<div align="center">
+<img src="./public/mockup.jpg" alt="Natours web app image on a macbook device set on a small table in a modern room" width="600" />
+</div>
+
 <br/>
 
 <div align="center">
@@ -10,7 +14,10 @@ A real-world tour booking application that simplifies booking, exploring and pla
 
 ## 🚀 Live Demo
 
-[live demo link]
+- **Client (Frontend):** Deployed on **Vercel**
+- **Server (Backend):** Deployed on **Render**
+
+👉 [View Website](https://app-natours.vercel.app)
 
 ### Table Of Contents
 
@@ -27,13 +34,13 @@ A real-world tour booking application that simplifies booking, exploring and pla
 
 ## Key Features 🎯
 
-⭐ Seamless User Experience: Browse, book, and manage tours through a clean, responsive, and intuitive interface.
+⭐ **Seamless User Experience**: Browse, book, and manage tours through a clean, responsive, and intuitive interface.
 
-⭐ Full CRUD Functionality: Users can create, read, update, and delete tours and their account settings, providing a complete and dynamic experience.
+⭐ **Full CRUD Functionality**: Users can create, read, update, and delete tours and their account settings, providing a complete and dynamic experience.
 
-⭐ Secure Authentication: Robust user authentication and protected routes ensure a secure environment for all users and their data.
+⭐ **Secure Authentication**: Robust user authentication and protected routes ensure a secure environment for all users and their data.
 
-⭐ Integrated Payments: Securely handle payments using Stripe, providing a reliable and trusted checkout process.
+⭐**Integrated Payments**: Securely handle payments using Stripe, providing a reliable and trusted checkout process.
 
 ---
 
@@ -43,17 +50,17 @@ A real-world tour booking application that simplifies booking, exploring and pla
 
 This project was engineered to demonstrate a deep understanding of modern frontend development principles, ensuring a performant, scalable, and maintainable application.
 
-👉 Advanced Data Fetching with TanStack Query: Utilized TanStack Query for managing asynchronous data, providing powerful caching, automatic refetching on window focus, and seamless background updates. This approach significantly improves performance and provides a professional, large-project feel.
+👉 **Advanced Data Fetching with TanStack Query**: Utilized TanStack Query for managing asynchronous data, providing powerful caching, automatic refetching on window focus, and seamless background updates. This approach significantly improves performance and provides a professional, large-project feel.
 
-👉 Code Splitting & Lazy Loading: Implemented React's lazy function and Suspense at the page level. This ensures that the application's initial load time is optimized by only fetching the code required for the current view.
+👉 **Code Splitting & Lazy Loading**: Implemented React's lazy function and Suspense at the page level. This ensures that the application's initial load time is optimized by only fetching the code required for the current view.
 
-👉 Enhanced Accessibility with React Portals: Used React Portals to handle modals and other UI elements that need to render outside the normal DOM hierarchy, which significantly improves accessibility and prevents styling conflicts.
+👉 **Enhanced Accessibility with React Portals**: Used React Portals to handle modals and other UI elements that need to render outside the normal DOM hierarchy, which significantly improves accessibility and prevents styling conflicts.
 
-👉 Robust Error Handling with Error Boundaries: Integrated React Error Boundaries to gracefully handle and display errors that occur within the UI, preventing the entire application from crashing and providing a better user experience.
+👉 **Robust Error Handling with Error Boundaries**: Integrated React Error Boundaries to gracefully handle and display errors that occur within the UI, preventing the entire application from crashing and providing a better user experience.
 
-👉 Professional Folder Structure: The codebase is organized into a clean, scalable structure, as seen in the Project Structure section.
+👉 **Professional Folder Structure**: The codebase is organized into a clean, scalable structure, as seen in the Project Structure section.
 
-👉 Responsive Design.
+👉 **Responsive Design**.
 
 ---
 
@@ -164,13 +171,13 @@ Replace the placeholder values with your actual api credentials.
 
 4. Run the project
 
-### Run the client
+### Run the client side
 
 ```bash
 npm run dev
 ```
 
-### Run the server
+### Run the server side
 
 ```bash
 npm start
