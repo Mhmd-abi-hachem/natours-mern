@@ -1,7 +1,7 @@
 <h2 align="center">Natours</h2>
 
 <div align="center">
-<img src="./public/mockup.jpg" alt="Natours web app image on a macbook device set on a small table in a modern room" width="600" />
+<img src="./client/public/mockup.jpg" alt="Natours web app image on a macbook device set on a small table in a modern room" width="600" />
 </div>
 
 <br/>
@@ -22,11 +22,23 @@ A real-world tour booking application that simplifies booking, exploring and pla
 ### Table Of Contents
 
 1. [Live Demo 🚀](#live-demo)
-2. [Key Features 🎯](#key-features)
-3. [Technical Highlights 🚀](#technical-highlights)
-4. [Technologies Used ⚙](#technologies-used)
-5. [Project Structure 📂](#project-structure)
-6. [Installation](#installation)
+2. [Demo Account 👨‍💻](#demo-acc)
+3. [Key Features 🎯](#key-features)
+4. [Technical Highlights 🚀](#technical-highlights)
+5. [Technologies Used ⚙](#technologies-used)
+6. [Project Structure 📂](#project-structure)
+7. [Installation](#installation)
+
+---
+
+<span id="demo-acc"></span>
+
+### Demo Account 👨‍💻
+
+You can use the following credentials to log in:
+
+- **Email:** mohamad10@gmail.com
+- **Password:** Mhmd#test1
 
 ---
 

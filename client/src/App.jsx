@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "react-hot-toast";
 
 import SpinnerFullPage from "./shared/ui/SpinnerFullPage";
+import ScrollToTop from "./shared/ui/ScrollToTop";
 const AppLayout = lazy(() => import("./layout/AppLayout"));
 const HomePage = lazy(() => import("./pages/HomePage"));
 const Login = lazy(() => import("./pages/Login"));
@@ -27,6 +28,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
         <Suspense fallback={<SpinnerFullPage />}>
+          <ScrollToTop />
           <Routes>
             <Route element={<AppLayout />}>
               <Route path="/" element={<HomePage />} />
